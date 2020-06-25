@@ -1,7 +1,6 @@
 def touchToneLetters(codeIn):
-	if(codeIn.find("-")):
-		codeIn = codeIn.replace(" "," 0 ")
-		codeIn = codeIn.replace("-"," ")
+	codeIn = codeIn.replace(" "," 0 ")
+	codeIn = codeIn.replace("-"," ")
 	stringOut = ""
 	for i in codeIn.split():
 		stringOut += phoneLetters[int(i[0])][len(i)-1]
