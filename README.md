@@ -27,3 +27,9 @@ Not actually very complex at all, and relies a bit too much on the input being p
 ## [Words](words.py)
 
 Does a bunch of random stuff with a [list of words](/words.txt), sourced from [dwyl's repo here](https://github.com/dwyl/english-words). To be honest, there isn't *too* much to this one at all, just a few sorts and direct comparisons to lists. I just like typing long words quickly, and finding words where each letter alternates between sides on the keyboard is a great way to do so.
+
+## [Bridge Caps](bridgeCaps.py)
+
+Takes a length of discrete units and returns all possible subdivisions of said length where each subdivision is seperated by one unit (or capstone), including one capstone on either end. 
+
+I mostly just use this for building bridges in Minecraft (hence the name) but I'm almost certain that there are other uses for it that I just haven't encountered yet, so I'm keeping it here for future use.
